@@ -1,5 +1,18 @@
 # Security workflow
 
+For security-relevant browser or mobile work, load the applicable client skill:
+
+- Browser authentication, untrusted rendering, API integration, routing, storage,
+  security configuration, or third-party code: read
+  `skills/security/frontend-security/SKILL.md`.
+- Android/iOS authentication, storage, networking, permissions, platform integration,
+  SDKs, or release configuration, including Flutter and React Native: read
+  `skills/security/mobile-security/SKILL.md`.
+
+These skills cover client design, implementation, testing, and review. For backend
+work within the task (including review), load the applicable stages below;
+otherwise report required backend controls as integration requirements.
+
 For backend/API work, load the skill for each applicable stage:
 
 - Before changes to service topology, trust boundaries, infrastructure
@@ -13,5 +26,6 @@ For backend/API work, load the skill for each applicable stage:
   read `skills/security/security-review/SKILL.md`.
 
 Reuse applicable design decisions across stages. Scope checks to the changed
-behavior and affected trust boundaries; documentation-only or formatting-only
-edits do not require the backend workflow. Missing evidence remains unverified.
+behavior and affected trust boundaries; documentation-only, formatting-only,
+or purely cosmetic edits do not require this workflow. Missing evidence remains
+unverified; do not claim a control passed because it was merely specified.
