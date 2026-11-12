@@ -1,0 +1,10 @@
+# Local agent skill discovery links
+/.agents/
+
+# IntelliJ IDEA project files
+/.idea/
+*.iml
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
