@@ -13,6 +13,11 @@ These skills cover client design, implementation, testing, and review. For backe
 work within the task (including review), load the applicable stages below;
 otherwise report required backend controls as integration requirements.
 
+For Dockerfile, Docker Compose, image/build, or associated runtime security work,
+read `skills/security/container-security/SKILL.md`. Use the backend stages below
+when the task also involves application behavior or architecture; keep cluster
+administration and unrelated host changes outside the container workflow.
+
 For backend/API work, load the skill for each applicable stage:
 
 - Before changes to service topology, trust boundaries, infrastructure
